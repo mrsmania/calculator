@@ -19,6 +19,92 @@ body {
     align-items: center;
 }
 
+#innerContainer {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#calcContainer {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    width: 360px;
+    border-radius: 5px;
+    background-color: #FFCC00;
+    box-shadow: 0 0 5px 5px rgb(0 0 0 / 0.2);
+}
+
+#calcDisplay {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 320px;
+    border-radius: 5px;
+    background-color: #666666;
+    color: #fff;
+    text-align: right;
+}
+
+#calcDisplay #history {
+    font-size: 1em;
+    padding: 10px 0 0;
+    height: 2em;
+}
+
+#calcDisplay #current {
+    font-size: 2em;
+    padding: 10px 0;
+    height: 2em;
+}
+
+#calcButtons {
+    margin: 20px auto 0;
+    width: 320px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 13.333333333px;
+}
+
+#calcContainer button {
+    width: 70px;
+    height: 70px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    box-shadow: 0 4px #999;
+    cursor: pointer;
+}
+
+#calcContainer button.double {
+    width: 153.333333333px !important; 
+}
+
+#calcContainer button:hover {
+    background-color: #d9d9d9;
+}
+
+/* #calcContainer button:active {
+    background-color: #cccccc;
+    box-shadow: 0 2px #888;
+    transform: translateY(2px);
+} */
+
+#calcContainer button.opr {
+    background-color: #cccccc;
+}
+
+#calcContainer button.opr:hover {
+    background-color: #adadad;
+}
+
+/* #calcContainer button.opr:active {
+    background-color: #a3a3a3;
+    box-shadow: 0 2px #888;
+    transform: translateY(2px);
+} */
+
 h1 {
     font-size: 2.8em;
     font-weight: 900;
