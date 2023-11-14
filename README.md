@@ -4,6 +4,8 @@ Created as part of The Odin Project curriculum.
 
 ⭐ [Live Demo](https://mrsmania.github.io/calculator/)
 
+Note: This page is not optimized for mobile devices.
+
 ![App Preview](https://github.com/mrsmania/calculator/blob/05ab75cb3e7c8bd5f4d98e09cd19ec1bd6257a01/img/image.png)
 
 ### Features
